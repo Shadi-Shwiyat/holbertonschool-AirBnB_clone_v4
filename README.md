@@ -157,6 +157,5 @@ No known bugs at this time.
 Dominick Keeling - [Github](https://github.com/DominickKeeling)
 Shadi Shwiyat - [Github](https://github.com/Shadi-Shwiyat) / [Twitter](https://twitter.com/raz611106)
 
-Second part of Airbnb: Joann Vuong
 ## License
 Public Domain. No copy write protection. 
