@@ -10,13 +10,14 @@ $(document).ready(function () {
             checkemarkedAmenities = checkemarkedAmenities.filter((item) => item !== dataName);
         }
         $('div.amenities h4').text(checkemarkedAmenities.join(', '));
+    });
 
-    $.get('http://0a5f2fab0457.a72dbe54.hbtn-cod.io:5001/api/v1/status/', function (data) {
-            if (data.status === 'OK') {
-              $('#api_status').addClass('available');
-            } else {
-                $('#api_status').removeClass('available');
-            }
-        });
+    $.get('http://2c90ef8d54bf.654b0ff2.hbtn-cod.io:5001/api/v1/status/', function (data) {
+        console.log(data.status);
+        if (data.status === 'OK') {
+          $('div#api_status').addClass('available');
+        } else {
+            $('div#api_status').removeClass('available');
+        }
     });
 });
