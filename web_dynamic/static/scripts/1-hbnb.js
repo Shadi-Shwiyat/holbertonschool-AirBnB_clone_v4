@@ -1,4 +1,4 @@
-$(Document).ready(function () {
+$(document).ready(function () {
     let checkemarkedAmenities = [];
 
     $('li :checkbox').change(function () {
